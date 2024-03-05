@@ -1,0 +1,22 @@
+<h3 class="mt-1">Contador hijo</h3>
+<h4>{{ contador$ | async }}</h4>
+
+<div class="row text-center mt-1">
+  <div class="col">
+    <button
+      (click)="multiply()"
+      class="btn btn-primary"
+      style="margin-right: 10px"
+    >
+      Multiplicar
+    </button>
+    <button (click)="divide()" class="btn btn-warning">Dividir</button>
+  </div>
+</div>
+
+<hr />
+<div class="row text-center">
+  <div class="col">
+    <app-nieto></app-nieto>
+  </div>
+</div>

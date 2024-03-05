@@ -1,0 +1,10 @@
+<input
+  type="range"
+  name=""
+  id=""
+  min="2"
+  max="10"
+  [(ngModel)]="factor"
+  (ngModelChange)="onSliderChange($event)"
+/>
+<h5>Factor: {{ factor }}</h5>
